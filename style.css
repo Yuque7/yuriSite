@@ -1,0 +1,53 @@
+.navegacao-principal {
+	display: flex;
+	justify-content: space-between;
+}
+svg {
+	width: 13rem;
+	height: 8rem;
+}
+ul.menu-principal {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+ul.menu-principal > li {
+	padding: 1rem;
+	font-style: italic;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+ul.lista-produtos > li > a > img {
+	width: 15rem;
+	height: 100%;
+}
+section {
+	display: flex;
+	margin-top: 5rem;
+}
+ul.lista-produtos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+aside > nav > ul > li {
+	font-style: italic;
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 0.8rem;
+	margin: 0.5rem 0;
+}
+aside > nav > ul {
+	margin-left: 5rem;
+}
+
+.logo {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 13rem;
+}
