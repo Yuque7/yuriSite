@@ -10,7 +10,7 @@ ul.menu-principal {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0;
+	margin: 3rem;
 	padding: 0;
 }
 ul.menu-principal > li {
@@ -24,6 +24,7 @@ ul.menu-principal > li {
 ul.lista-produtos > li > a > img {
 	width: 15rem;
 	height: 100%;
+	margin-right: 0.8rem;
 }
 section {
 	display: flex;
@@ -50,4 +51,8 @@ aside > nav > ul {
 	display: flex;
 	justify-content: flex-end;
 	margin-right: 13rem;
+}
+ul.lateral {
+	margin-left: 3rem;
+	padding-top: 2.1rem;
 }
