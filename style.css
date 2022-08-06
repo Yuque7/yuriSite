@@ -1,22 +1,23 @@
 .navegacao-principal {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items: center;
 }
 svg {
-	width: 13rem;
-	height: 8rem;
-	margin-right: 16.7rem;
+	width: 12rem;
+	height: 7rem;
 	padding-top: 2rem;
 }
 ul.menu-principal {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: center;
-	margin: 3rem;
-	padding-top: 2rem;
+	align-items: flex-end;
+	margin: 2rem;
+	padding-top: 1rem;
 }
 ul.menu-principal > li {
-	padding: 1rem;
+	padding: 0.8rem;
 	font-style: italic;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -24,18 +25,25 @@ ul.menu-principal > li {
 }
 
 ul.lista-produtos > li > a > img {
-	width: 14rem;
-	height: 100%;
-	margin-right: 0.8rem;
+	width: 12rem;
+	justify-content: center;
+	align-items: stretch;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 section {
 	display: flex;
-	margin-top: 5rem;
+	margin-top: 1.5rem;
 }
 ul.lista-produtos {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	align-items: stretch;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-right: 6rem;
+	margin-top: 2rem;
 }
 aside > nav > ul > li {
 	font-style: italic;
@@ -43,6 +51,7 @@ aside > nav > ul > li {
 	font-weight: 600;
 	font-size: 0.8rem;
 	margin: 0.5rem 0;
+	margin-left: 4rem;
 }
 aside > nav > ul {
 	margin-left: 5rem;
@@ -52,9 +61,11 @@ aside > nav > ul {
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 13rem;
+	margin-right: 8rem;
 }
 ul.lateral {
 	margin-left: 2.5rem;
 	padding-top: 1.9rem;
+	font-size: 1.8rem;
+	text-align: left;
 }
